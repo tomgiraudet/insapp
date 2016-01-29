@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CADEC341C5BE7C500EA652C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADEC331C5BE7C500EA652C /* AppDelegate.swift */; };
+		2CADEC361C5BE7C500EA652C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADEC351C5BE7C500EA652C /* FirstViewController.swift */; };
+		2CADEC381C5BE7C500EA652C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADEC371C5BE7C500EA652C /* SecondViewController.swift */; };
+		2CADEC3B1C5BE7C500EA652C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CADEC391C5BE7C500EA652C /* Main.storyboard */; };
+		2CADEC3D1C5BE7C500EA652C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CADEC3C1C5BE7C500EA652C /* Assets.xcassets */; };
+		2CADEC401C5BE7C500EA652C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CADEC3E1C5BE7C500EA652C /* LaunchScreen.storyboard */; };
+		2CADEC4B1C5BE7C600EA652C /* InsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADEC4A1C5BE7C600EA652C /* InsAppTests.swift */; };
+		2CADEC561C5BE7C600EA652C /* InsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADEC551C5BE7C600EA652C /* InsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CADEC471C5BE7C600EA652C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CADEC281C5BE7C500EA652C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CADEC2F1C5BE7C500EA652C;
+			remoteInfo = InsApp;
+		};
+		2CADEC521C5BE7C600EA652C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CADEC281C5BE7C500EA652C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CADEC2F1C5BE7C500EA652C;
+			remoteInfo = InsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CADEC301C5BE7C500EA652C /* InsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CADEC331C5BE7C500EA652C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CADEC351C5BE7C500EA652C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2CADEC371C5BE7C500EA652C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2CADEC3A1C5BE7C500EA652C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CADEC3C1C5BE7C500EA652C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CADEC3F1C5BE7C500EA652C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CADEC411C5BE7C500EA652C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CADEC461C5BE7C600EA652C /* InsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CADEC4A1C5BE7C600EA652C /* InsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsAppTests.swift; sourceTree = "<group>"; };
+		2CADEC4C1C5BE7C600EA652C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CADEC511C5BE7C600EA652C /* InsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CADEC551C5BE7C600EA652C /* InsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsAppUITests.swift; sourceTree = "<group>"; };
+		2CADEC571C5BE7C600EA652C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CADEC2D1C5BE7C500EA652C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CADEC431C5BE7C600EA652C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CADEC4E1C5BE7C600EA652C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CADEC271C5BE7C500EA652C = {
+			isa = PBXGroup;
+			children = (
+				2CADEC321C5BE7C500EA652C /* InsApp */,
+				2CADEC491C5BE7C600EA652C /* InsAppTests */,
+				2CADEC541C5BE7C600EA652C /* InsAppUITests */,
+				2CADEC311C5BE7C500EA652C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CADEC311C5BE7C500EA652C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CADEC301C5BE7C500EA652C /* InsApp.app */,
+				2CADEC461C5BE7C600EA652C /* InsAppTests.xctest */,
+				2CADEC511C5BE7C600EA652C /* InsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CADEC321C5BE7C500EA652C /* InsApp */ = {
+			isa = PBXGroup;
+			children = (
+				2CADEC331C5BE7C500EA652C /* AppDelegate.swift */,
+				2CADEC351C5BE7C500EA652C /* FirstViewController.swift */,
+				2CADEC371C5BE7C500EA652C /* SecondViewController.swift */,
+				2CADEC391C5BE7C500EA652C /* Main.storyboard */,
+				2CADEC3C1C5BE7C500EA652C /* Assets.xcassets */,
+				2CADEC3E1C5BE7C500EA652C /* LaunchScreen.storyboard */,
+				2CADEC411C5BE7C500EA652C /* Info.plist */,
+			);
+			path = InsApp;
+			sourceTree = "<group>";
+		};
+		2CADEC491C5BE7C600EA652C /* InsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CADEC4A1C5BE7C600EA652C /* InsAppTests.swift */,
+				2CADEC4C1C5BE7C600EA652C /* Info.plist */,
+			);
+			path = InsAppTests;
+			sourceTree = "<group>";
+		};
+		2CADEC541C5BE7C600EA652C /* InsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CADEC551C5BE7C600EA652C /* InsAppUITests.swift */,
+				2CADEC571C5BE7C600EA652C /* Info.plist */,
+			);
+			path = InsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CADEC2F1C5BE7C500EA652C /* InsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CADEC5A1C5BE7C600EA652C /* Build configuration list for PBXNativeTarget "InsApp" */;
+			buildPhases = (
+				2CADEC2C1C5BE7C500EA652C /* Sources */,
+				2CADEC2D1C5BE7C500EA652C /* Frameworks */,
+				2CADEC2E1C5BE7C500EA652C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsApp;
+			productName = InsApp;
+			productReference = 2CADEC301C5BE7C500EA652C /* InsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CADEC451C5BE7C600EA652C /* InsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CADEC5D1C5BE7C600EA652C /* Build configuration list for PBXNativeTarget "InsAppTests" */;
+			buildPhases = (
+				2CADEC421C5BE7C600EA652C /* Sources */,
+				2CADEC431C5BE7C600EA652C /* Frameworks */,
+				2CADEC441C5BE7C600EA652C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CADEC481C5BE7C600EA652C /* PBXTargetDependency */,
+			);
+			name = InsAppTests;
+			productName = InsAppTests;
+			productReference = 2CADEC461C5BE7C600EA652C /* InsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CADEC501C5BE7C600EA652C /* InsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CADEC601C5BE7C600EA652C /* Build configuration list for PBXNativeTarget "InsAppUITests" */;
+			buildPhases = (
+				2CADEC4D1C5BE7C600EA652C /* Sources */,
+				2CADEC4E1C5BE7C600EA652C /* Frameworks */,
+				2CADEC4F1C5BE7C600EA652C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CADEC531C5BE7C600EA652C /* PBXTargetDependency */,
+			);
+			name = InsAppUITests;
+			productName = InsAppUITests;
+			productReference = 2CADEC511C5BE7C600EA652C /* InsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CADEC281C5BE7C500EA652C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Tom Giraudet";
+				TargetAttributes = {
+					2CADEC2F1C5BE7C500EA652C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					2CADEC451C5BE7C600EA652C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2CADEC2F1C5BE7C500EA652C;
+					};
+					2CADEC501C5BE7C600EA652C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2CADEC2F1C5BE7C500EA652C;
+					};
+				};
+			};
+			buildConfigurationList = 2CADEC2B1C5BE7C500EA652C /* Build configuration list for PBXProject "InsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CADEC271C5BE7C500EA652C;
+			productRefGroup = 2CADEC311C5BE7C500EA652C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CADEC2F1C5BE7C500EA652C /* InsApp */,
+				2CADEC451C5BE7C600EA652C /* InsAppTests */,
+				2CADEC501C5BE7C600EA652C /* InsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CADEC2E1C5BE7C500EA652C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CADEC401C5BE7C500EA652C /* LaunchScreen.storyboard in Resources */,
+				2CADEC3D1C5BE7C500EA652C /* Assets.xcassets in Resources */,
+				2CADEC3B1C5BE7C500EA652C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CADEC441C5BE7C600EA652C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CADEC4F1C5BE7C600EA652C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CADEC2C1C5BE7C500EA652C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CADEC381C5BE7C500EA652C /* SecondViewController.swift in Sources */,
+				2CADEC341C5BE7C500EA652C /* AppDelegate.swift in Sources */,
+				2CADEC361C5BE7C500EA652C /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CADEC421C5BE7C600EA652C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CADEC4B1C5BE7C600EA652C /* InsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CADEC4D1C5BE7C600EA652C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CADEC561C5BE7C600EA652C /* InsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CADEC481C5BE7C600EA652C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CADEC2F1C5BE7C500EA652C /* InsApp */;
+			targetProxy = 2CADEC471C5BE7C600EA652C /* PBXContainerItemProxy */;
+		};
+		2CADEC531C5BE7C600EA652C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CADEC2F1C5BE7C500EA652C /* InsApp */;
+			targetProxy = 2CADEC521C5BE7C600EA652C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CADEC391C5BE7C500EA652C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CADEC3A1C5BE7C500EA652C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CADEC3E1C5BE7C500EA652C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CADEC3F1C5BE7C500EA652C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CADEC581C5BE7C600EA652C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CADEC591C5BE7C600EA652C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CADEC5B1C5BE7C600EA652C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TomGiraudet.InsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CADEC5C1C5BE7C600EA652C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TomGiraudet.InsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CADEC5E1C5BE7C600EA652C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TomGiraudet.InsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsApp.app/InsApp";
+			};
+			name = Debug;
+		};
+		2CADEC5F1C5BE7C600EA652C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TomGiraudet.InsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsApp.app/InsApp";
+			};
+			name = Release;
+		};
+		2CADEC611C5BE7C600EA652C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TomGiraudet.InsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InsApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2CADEC621C5BE7C600EA652C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TomGiraudet.InsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InsApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CADEC2B1C5BE7C500EA652C /* Build configuration list for PBXProject "InsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CADEC581C5BE7C600EA652C /* Debug */,
+				2CADEC591C5BE7C600EA652C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CADEC5A1C5BE7C600EA652C /* Build configuration list for PBXNativeTarget "InsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CADEC5B1C5BE7C600EA652C /* Debug */,
+				2CADEC5C1C5BE7C600EA652C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CADEC5D1C5BE7C600EA652C /* Build configuration list for PBXNativeTarget "InsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CADEC5E1C5BE7C600EA652C /* Debug */,
+				2CADEC5F1C5BE7C600EA652C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CADEC601C5BE7C600EA652C /* Build configuration list for PBXNativeTarget "InsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CADEC611C5BE7C600EA652C /* Debug */,
+				2CADEC621C5BE7C600EA652C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CADEC281C5BE7C500EA652C /* Project object */;
+}
